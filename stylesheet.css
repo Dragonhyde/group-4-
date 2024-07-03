@@ -17,12 +17,12 @@ body, html {
     padding: 15px 30px;
     font-size: 20px;
     color: #fff;
-    background-color: #d77edf;
+    background-color: #ffde7a;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 #cta-button:hover {
-    background-color: #b5d9ff;
+    background-color: #d4b761;
 }
