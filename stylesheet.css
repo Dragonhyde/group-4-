@@ -10,19 +10,58 @@ body, html {
 
 .container {
     text-align: center;
+    display: flex;
+    grid-column-start: 2, 1fr;
+    gap: 30px;
 }
 
-#cta-button {
-    display: inline-flex;
-    padding: 15px 30px;
-    font-size: 20px;
-    color: #fff;
-    background-color: #d77edf;
+.box{
+    border: 1px solid #c6c6c6;
+    border-radius: 8px; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    width:220px;
+}
+
+h{
+    color: #1a8001;
+    text-align: left;
+    margin-top: 300px;
+    margin-bottom: -198px;
+}
+
+#cta-cart-button{
+    display: block;
+    margin-top: 200px;
+    padding: 6px 30px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffde7a;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+
+}
+
+#cta-cart-button:hover {
+    background-color: #d5af3e;
+}
+/*--------------------------------------------------*/
+
+#cta-Buynow-button{
+    display: block;
+    padding: 6px 30px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ff9e17;
+    text-decoration: none;
+    border-radius: 30px;
     transition: background-color 0.3s ease;
 }
 
-#cta-button:hover {
-    background-color: #b5d9ff;
+#cta-Buynow-button:hover{
+    background-color: #da8205;
 }
+/*--------------------------------------------------*/
